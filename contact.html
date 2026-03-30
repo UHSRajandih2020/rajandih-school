@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>संपर्क | राजन्डीह स्कूल</title>
+    <style>
+        body { font-family: 'Arial', sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+        header { background: #004d40; color: white; padding: 20px; text-align: center; }
+        nav { background: #333; padding: 10px; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        .container { max-width: 1000px; margin: 30px auto; display: flex; flex-wrap: wrap; gap: 20px; padding: 0 20px; }
+        .form-section { flex: 1; background: white; padding: 25px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        .map-section { flex: 1; background: white; padding: 10px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); min-height: 300px; }
+        input, textarea { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 4px; }
+        button { background: #004d40; color: white; border: none; padding: 10px 20px; cursor: pointer; font-weight: bold; width: 100%; }
+    </style>
+</head>
+<body>
+
+<header><h1>संपर्क और स्थान</h1></header>
+<nav>
+    <a href="index.html">होम</a>
+    <a href="teachers.html">शिक्षक</a>
+    <a href="notices.html">सूचनाएं</a>
+    <a href="contact.html" style="color:#ffc107">संपर्क</a>
+</nav>
+
+<div class="container">
+    <div class="form-section">
+        <h2>संदेश भेजें</h2>
+        <form action="https://formspree.io/f/rajandihuhs@gmail.com" method="POST">
+            <input type="text" name="name" placeholder="आपका नाम" required>
+            <input type="email" name="email" placeholder="आपका ईमेल" required>
+            <textarea name="message" placeholder="आपका संदेश" required></textarea>
+            <button type="submit">भेजें</button>
+        </form>
+    </div>
+
+    <div class="map-section">
+        <h2>Google Map पर हमें खोजें</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115456.3262841443!2d83.94970425!3d24.9328224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e94473e04e9c3%3A0xc48e9d56214041b1!2sRohtas%2C%20Bihar!5e0!3m2!1sen!2sin!4v1707567890123!5m2!1sen!2sin" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+</div>
+
+</body>
+</html>
