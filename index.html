@@ -15,11 +15,12 @@
         .news-ticker { background: #ffc107; color: #333; padding: 10px; font-weight: bold; }
         .container { max-width: 1100px; margin: 20px auto; display: flex; flex-wrap: wrap; gap: 20px; padding: 0 20px; }
         .main-content { flex: 2; background: white; padding: 25px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
-        .school-image { width: 100%; border-radius: 8px; margin-bottom: 20px; border: 2px solid #ddd; }
+        .school-image { width: 100%; border-radius: 8px; margin-bottom: 20px; border: 2px solid #ddd; display: block; }
         .sidebar { flex: 1; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
         .notice-box { background: #e1f5fe; border-left: 5px solid #004d40; padding: 10px; margin-bottom: 10px; font-size: 0.9em; }
         footer { background: #004d40; color: white; text-align: center; padding: 30px; margin-top: 40px; }
         .social-icons a { color: white; font-size: 24px; margin: 0 10px; text-decoration: none; }
+        .social-icons a:hover { color: #ffc107; }
     </style>
 </head>
 <body>
@@ -43,13 +44,16 @@
 <div class="container">
     <div class="main-content">
         <h2>विद्यालय में आपका स्वागत है</h2>
+        
         <img src="UHS,RAJANDIH.jpeg" alt="School Building" class="school-image">
-        <p>उच्च माध्यमिक विद्यालय, राजन्डीह, रोहतास जिले का एक अग्रणी शिक्षण संस्थान है।</p>
+        
+        <p>उच्च माध्यमिक विद्यालय, राजन्डीह, रोहतास जिले का एक अग्रणी शिक्षण संस्थान है। हम अपने छात्रों को गुणवत्तापूर्ण शिक्षा और नैतिक मूल्यों के साथ तैयार करते हैं।</p>
     </div>
 
     <div class="sidebar">
         <h3>ताजा खबरें</h3>
-        <div class="notice-box">📌 नामांकन सूचना 2026</div>
+        <div class="notice-box">📌 नामांकन सूचना 2026 शुरू।</div>
+        <div class="notice-box">📌 गर्मी की छुट्टी 1 जून से।</div>
         <a href="notices.html" style="color: #004d40; font-weight: bold;">सभी सूचनाएं देखें →</a>
     </div>
 </div>
@@ -57,10 +61,11 @@
 <footer>
     <div class="social-icons">
         <a href="#"><i class="fab fa-facebook"></i></a>
-        <a href="#"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://wa.me/918809572814"><i class="fab fa-whatsapp"></i></a>
         <a href="#"><i class="fab fa-youtube"></i></a>
     </div>
-    <p>© 2026 उच्च माध्यमिक विद्यालय, राजन्डीह</p>
+    <p style="margin-top: 15px;">© 2026 उच्च माध्यमिक विद्यालय, राजन्डीह | जिला: रोहतास</p>
 </footer>
+
 </body>
 </html>
